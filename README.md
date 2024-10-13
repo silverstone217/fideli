@@ -23,6 +23,12 @@ Fideli est une application mobile conçue pour permettre aux clients de génére
    ```bash
    git clone https://github.com/silverstone217/fideli.git
    ```
-2. cd fideli
-3. npm install
-4. expo start
+2. ```bash
+   cd fideli
+   ```
+3. ```bash
+   npm install
+   ```
+4. ```bash
+   expo start
+   ```
