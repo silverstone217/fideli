@@ -9,6 +9,7 @@ import { useUserNameStore, useUserStore } from "../lib/store";
 import { storeData } from "../lib/storage";
 import uuid from "react-native-uuid";
 import { UserType } from "../types";
+import React from "react";
 
 export default function App() {
   const [myUsername, setMyUsername] = useState("");
@@ -185,7 +186,7 @@ export default function App() {
             textAlign: "center",
           }}
         >
-          Fideli inc 2024
+          Servi group inc 2024
         </Text>
 
         <StatusBar style="dark" />

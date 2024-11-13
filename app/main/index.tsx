@@ -37,7 +37,7 @@ const MainScreen = () => {
           textAlign: "center",
         }}
       >
-        Fideli inc 2024
+        Servi group inc 2024
       </Text>
       <StatusBar style="light" />
       {/* {shop ? <MainComponent /> : <ShopForm />} */}

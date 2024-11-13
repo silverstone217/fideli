@@ -71,7 +71,9 @@ export default function Layout() {
 
   useEffect(() => {
     if (loaded || error) {
-      SplashScreen.hideAsync();
+      setTimeout(() => {
+        SplashScreen.hideAsync();
+      }, 4000);
     }
   }, [loaded, error]);
 
